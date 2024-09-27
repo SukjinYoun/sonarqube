@@ -29,6 +29,7 @@ pipeline {
                         -Dsonar.sources=./nodejs \
                         -Dsonar.host.url=https://sonarqube.momoiot.co.kr \
                         -Dsonar.exclusions=node_modules/**,test/**
+                        -Dsonar.token=sqp_e0955c1b673f738f95c8b286c4545e63c7b2d203"
                     """
                 }
             }
