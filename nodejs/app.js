@@ -7,9 +7,9 @@ const port = 3000;
 app.disable("x-powered-by");
 
 app.get('/', (req, res) => {
-  let a = 1;
-  let b = 2;
-  let c = 1 + 2;
+  const a = 1;
+  const b = 2;
+  const c = 1 + 2;
   if ( a == b ) {
     console.log('a equals b')
   }
