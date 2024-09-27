@@ -10,7 +10,7 @@ afterAll((done) => {
   stopServer(done);
 });
 
-describe('GET /hello', () => {
+describe('GET /', () => {
   it('responds with Hello World!', async () => {
     const response = await request(app).get('/');
     expect(response.statusCode).toBe(200);
