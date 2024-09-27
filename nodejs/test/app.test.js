@@ -17,3 +17,9 @@ describe('GET /', () => {
     expect(response.text).toBe('Hello World!');
   });
 });
+
+describe('GET /hello', () => {
+  it('responds with Hello World!', async () => {
+    assert(false);
+  });
+});
