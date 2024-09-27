@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        SONAR_PROJECT_KEY = 'badsaarow_sonarqube'
+        SONAR_PROJECT_KEY = 'sukjin_project'
         PATH = "${tool 'NodeJS'}/bin:${tool 'SonarScanner'}/bin:${env.PATH}"
     }
 
