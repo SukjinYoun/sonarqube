@@ -1,10 +1,8 @@
 const express = require('express');
 
 const app = express();
-const port = 3000;
-
-//let example = express();
 app.disable("x-powered-by");
+const port = 3000;
 
 app.get('/', (req, res) => {
   const a = 1;
